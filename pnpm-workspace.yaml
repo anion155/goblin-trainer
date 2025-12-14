@@ -1,3 +1,6 @@
+packages:
+  - monorepo/packages/*
+
 onlyBuiltDependencies:
   - esbuild
   - unrs-resolver
