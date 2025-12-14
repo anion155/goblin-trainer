@@ -1,1 +1,1 @@
-# @anion155/games
+# @anion155/goblin-trainer
