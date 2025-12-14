@@ -1,0 +1,31 @@
+{
+  "name": "@anion155/games",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "a": {
+    "@anion155/proposal-explicit-resource-management": "workspace:*",
+    "@anion155/proposal-iterator-helpers": "workspace:*",
+    "@anion155/shared": "workspace:*",
+    "@anion155/signals": "workspace:*",
+    "@anion155/linear": "workspace:*",
+    "@anion155/configs": "workspace:*"
+  },
+  "dependencies": {
+    "keycode-js": "^3.1.0",
+    "nanoid": "^5.1.6",
+    "vite": "^7.1.7"
+  },
+  "devDependencies": {
+    "@jest/globals": "^30.0.0",
+    "eslint": "^9.29.0",
+    "image-size": "^2.0.2",
+    "jest": "^30.0.2",
+    "prettier": "^3.5.3"
+  },
+  "packageManager": "pnpm@10.25.0+sha512.5e82639027af37cf832061bcc6d639c219634488e0f2baebe785028a793de7b525ffcd3f7ff574f5e9860654e098fe852ba8ac5dd5cefe1767d23a020a92f501"
+}

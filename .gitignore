@@ -1,0 +1,16 @@
+node_modules/
+packages/*/node_modules/
+packages/*/coverage/
+
+# dotenv environment variable files
+
+packages/*/.env
+packages/*/.env.*
+
+# Build
+
+packages/*/dist
+
+# MacOS
+
+.DS_Store
