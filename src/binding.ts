@@ -1,7 +1,7 @@
 import type { RectValue } from "@anion155/linear";
 import { boundParseValue, Rect, Size } from "@anion155/linear";
-import type { Point2DValue } from "@anion155/linear/point-2d";
-import { Point2D } from "@anion155/linear/point-2d";
+import type { Point2DValue } from "@anion155/linear/points";
+import { Point2D } from "@anion155/linear/points";
 import type { SizeValue } from "@anion155/linear/size";
 import type { SignalBindingArgument } from "@anion155/signals";
 import { SignalBinding } from "@anion155/signals";

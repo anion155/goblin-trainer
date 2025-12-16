@@ -1,4 +1,4 @@
-import { Point2D } from "@anion155/linear/point-2d";
+import { Point2D } from "@anion155/linear/points";
 import type { Size } from "@anion155/linear/size";
 import { DeveloperError } from "@anion155/shared";
 
@@ -60,7 +60,7 @@ export class CanvasRendererLayer extends Entity {
     const { ctx, game, size } = context;
     ctx.clearRect(0, 0, size.w, size.h);
     ctx.save();
-    ctx.translate(...Point2D.project(size, this.offset.value)((size, position) => size / 2 - position).asTuple());
+    ctx.translate(...Point2D.project(size, this.offset.value)(([size, position]) => size / 2 - position).asTuple());
     const components = game.eachNestedComponents(CanvasRendererEntityComponent).toArray();
     components.sort((a, b) => {
       const aY = a.entity.findComponent(Point2DComponent, "position")?.value.y ?? 0;

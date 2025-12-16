@@ -1,4 +1,4 @@
-import { Point2D } from "@anion155/linear/point-2d";
+import { Point2D } from "@anion155/linear/points";
 import type { Rect } from "@anion155/linear/rect";
 
 import type { Point2DBindingArgument, SizeBindingArgument } from "./binding";

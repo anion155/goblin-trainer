@@ -1,4 +1,4 @@
-import type { Point2D } from "@anion155/linear/point-2d";
+import type { Point2D } from "@anion155/linear/points";
 import { Rect } from "@anion155/linear/rect";
 
 import type { SourceDestParams } from "./image-resource";
